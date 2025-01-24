@@ -68,25 +68,25 @@
                     <ol class="mobile-menu-list">
                         <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
                             <a (click)='scroll("about"); toggleMenu()'>
-                                <span class="nav-number">01. </span>
+
                                 {{"Header.Item1" | translate}}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_experience", "menu", "click")'>
                             <a (click)='scroll("jobs"); toggleMenu()'>
-                                <span class="nav-number">02. </span>
+
                                 {{"Header.Item2" | translate}}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_jobs", "menu", "click")'>
                             <a (click)='scroll("proyects"); toggleMenu()'>
-                                <span class="nav-number">03. </span>
+
                                 {{"Header.Item3" | translate}}
                             </a>
                         </li>
                         <li (click)='analyticsService.sendAnalyticEvent("click_contact", "menu", "click")'>
                             <a (click)='scroll("contact"); toggleMenu()'>
-                                <span class="nav-number">04. </span>
+
                                 {{"Header.Item4" | translate}}
                             </a>
                         </li>
