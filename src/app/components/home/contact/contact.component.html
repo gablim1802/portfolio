@@ -1,19 +1,45 @@
-<section class="section contact" id='contact'>
-    <div class="container">
-        <div class="section-box">
-            <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
-                <h3 class="contact-pre-title big-subtitle">05. {{"Contact.Pretitle" | translate}}</h3>
-                <h4 class="e-font contact-title big-title">
-                    {{"Contact.Title" | translate}}
-                </h4>
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+        <!-- Decorative background element -->
+        <div class="background-blur"></div>
+        
+        <div class="contact-content">
+            <!-- Section Header -->
+            <div class="section-header" data-aos="fade-up" data-aos-duration="800">
+                <h3 class="section-title">Let's Connect</h3>
             </div>
-            <p data-aos="fade-up" data-aos-duration="1000">
-                {{"Contact.Content" | translate}}
-            </p>
-            <div class="mt-5">
-                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="mailto:haryagni123@gmail.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
-                    {{"Contact.Btn" | translate}}
-                </a>
+
+            <!-- Contact Cards -->
+            <div class="contact-cards-wrapper" data-aos="fade-up" data-aos-duration="1000">
+                <!-- Email Card -->
+                <div class="contact-card">
+                    <i class="far fa-envelope"></i>
+                    <h4>Email</h4>
+                    <a href="mailto:gabriellimjunkee@gmail.com" class="contact-link">gabriellimjunkee@gmail.com</a>
+                </div>
+            
+                <!-- Phone Card -->
+                <div class="contact-card">
+                    <i class="fas fa-phone-alt"></i>
+                    <h4>Phone</h4>
+                    <a href="tel:+60126503704" class="contact-link">+60 12-650 3704</a>
+                </div>
+            
+                <!-- LinkedIn Card -->
+                <div class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/lim-jun-kee-889805219/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                        Connect with me
+                    </a>
+                </div>
+            </div>
+            
+
+
+            <!-- CTA Button -->
+            <div class="cta-wrapper" data-aos="fade-up" data-aos-duration="1200">
+                <p class="cta-text">Interested in working together?</p>
             </div>
         </div>
     </div>

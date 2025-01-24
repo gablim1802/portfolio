@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 
 @Component({
@@ -8,11 +9,17 @@ import { AnalyticsService } from 'src/app/services/analytics/analytics.service';
 })
 export class ContactComponent implements OnInit {
 
+  
+
   constructor(
-    public analyticsService: AnalyticsService
+    public analyticsService: AnalyticsService,
+
   ) { }
 
   ngOnInit(): void {
   }
+
+
+
 
 }

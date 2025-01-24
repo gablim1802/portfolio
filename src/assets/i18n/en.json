@@ -6,90 +6,99 @@
   "Header.cvBtn": "Resume",
   "Header.cvName": "Resume.pdf",
   "Banner.Pretitle": "Hello! My name is",
-  "Banner.Description": "I am a skilled software engineer with <span class='underline'>2.5 years of experience</span> in building high-performance, scalable web and mobile applications. My expertise spans <span class='underline'>Angular, React, React Native, HTML, CSS, JavaScript, TypeScript</span>, and other modern front-end technologies. I specialize in delivering well-structured code and seamless user experiences, while continuously pushing the boundaries of web development through modern practices.",
+  "Banner.Description": "I am a recent <span class='bold'>Bachelor of Computer Science graduate (2024) from Monash University</span> with a strong academic record (<span class='bold'>CGPA: 3.87/4.0, WAM: 83.4</span>). My expertise spans <span class='bold'>Angular, React, React Native, HTML, CSS, JavaScript, TypeScript</span>, and other modern front-end technologies. With years of experience in building high-performance, scalable web and mobile applications, I specialize in delivering well-structured code and seamless user experiences. My solid foundation in <span class='bold'>software development, parallel computing, and full-stack development</span>, combined with proficiency in <span class='bold'>DevOps practices and cloud-based version control systems</span>, enables me to contribute effectively to innovative projects while continuously pushing the boundaries of modern development practices.",
   "Banner.ActionBtn": "Get in touch",
   "AboutMe.Title": "About me",
   "AboutMe.Paragraphs": [
-    "I thrive on creating seamless, interactive, and efficient web applications that balance user experience with technical excellence. With <span class='underline'>2.5 years of experience</span> in front-end engineering, I've mastered frameworks like <span class='underline'>Angular, React, and React Native</span> to build dynamic, responsive interfaces. Whether optimizing performance, revamping UI, or integrating APIs, I enjoy bringing ideas to life with clean, scalable code. I also take pride in collaborating with clients and teams to deliver tailored solutions that meet both technical and business goals.",
+    "As a fresh Computer Science graduate, I am passionate about software development, artificial intelligence, and problem-solving. My academic journey has equipped me with a strong foundation in <span class='bold'> full-stack development</span>, <span class='bold'>software engineering</span>, and <span class='bold'>machine learning</span>. Through my coursework and projects, I've gained experience with various technologies ranging from <span class='bold'>Python, Java, and JavaScript</span> to modern frameworks like <span class='bold'>Angular and Springboot</span>. My technical toolkit includes full-stack development with MongoDB and SQL databases, version control with GitHub, and data visualization using Tableau. I've also explored AI applications and machine learning models, enhancing my analytical and problem-solving capabilities.",
+    "Being trilingual in English, Chinese (both fluent), and Bahasa Melayu (intermediate), I'm eager to contribute my technical skills and multicultural perspective to innovative development teams that push the boundaries of technology.",
     "Some of the technologies that I have trained and worked on include (but are not limited to):"
   ],
   "Experience.Title": "Experience",
   "Experience.Jobs": [
     {
-      "Tab": "Gemini",
-      "Title": "Software Engineer L2",
-      "Date": "April 2022 - Present",
+      "Tab": "Tec D",
+      "Title": "Intern",
+      "Date": "Nov 2022 - Jan 2023",
+      "Link":"https://www.linkedin.com/company/tec-d-malaysia/posts/?feedView=all",
       "Description": [
-        "Achieved a 40% improvement in code efficiency for over 20 customers, significantly enhancing performance and user satisfaction.",
-        "Transformed Figma designs into responsive web interfaces using HTML, CSS, Bootstrap, Angular, React.js, TypeScript, and JavaScript, leading UI revamps that boosted site engagement by 40% and improved mobile responsiveness by 25%.",
-        "Integrated RESTful APIs for seamless data communication, enhancing overall application functionality and user experience. Diagnosed and resolved complex bugs to improve software stability.",
-        "Delivered customized web solutions by implementing new Customer Requirements (CRs) and translating client needs into precise technical specifications. Participated actively in code reviews to uphold best practices.",
-        "Conducted training sessions on Angular, React, and front-end development, promoting skill enhancement within the team. Collaborated with senior developers to tackle technical challenges, ensuring project success."
+    "Supported the Cloud Licensing Sales Team in various sales tasks",
+        "Collaborated with team to gather cloud product information",
+        "Assisted in preparing sales materials for client meetings",
+        "Assisted in tracking sales progress and reports",
+        "Conducted market research to identify potential clients",
+        "Participated in client meetings, aiding in solution presentations"
+      ]
+    },
+    {
+      "Tab": "iFast",
+      "Title": "Java, Mobile and Full Stack Developer Intern",
+      "Date": "Nov 2023 - Feb 2024",
+      "Link":"https://www.ifastcorp.com/ifastcorp/aboutus/index.tpl",
+      "Description": [
+        "Updated the company intranet with new features and upgraded it to version 2.0 using Angular and Spring Boot.",
+        "Contributed to the development and bug fixes of a Live Translation Video Call Chat project for client consultations.",
+        "Implemented solutions to store call data and transcripts for future use.",
+        "Integrated Microsoft Azure for hosting, real-time translation, and AI functionalities."
       ]
     }
   ],
-  "FeatureProjects.Title": "Projects that I was a part of",
+  "FeatureProjects.Title": "Projects that I've done",
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "Agent Portal",
-      "Description": "Developed a comprehensive web application for a leading <span class='underline'>Indian insurance company,</span> featuring over <span class='underline'> 10 insurance products.</span>The portal streamlines <span class='underline'> policy issuance, renewals, endorsements, </span> and <span class='underline'>claims management.</span> Integrated <span class='underline'>CRM tools</span> for managing client interactions and leads. Led the project through <span class='underline'> design, development, testing,</span> and <span class='underline'>deployment</span> ensuring a <span class='underline'>responsive</span> and <span class='underline'> user-friendly</span> experience with key functionalities like <span class='underline'>API integration</span> and <span class='underline'>authentication.</span>",
+      "Title": "Functional Reactive Tetris: A Pure FP Implementation with RxJS",
+      "Description": "Developed a <span class='bold'>modern Tetris implementation</span> using <span class='bold'>pure functional programming principles</span> and <span class='bold'>reactive streams</span>. The game showcases <span class='bold'>immutable state management</span> and <span class='bold'>Observable-based event handling</span> through RxJS. Features include <span class='bold'>real-time piece movement</span>, <span class='bold'>rotation mechanics</span>, and <span class='bold'>collision detection</span> - all implemented using <span class='bold'>pure functions</span> and <span class='bold'>reactive streams</span>. The architecture demonstrates <span class='bold'>declarative programming</span> principles with <span class='bold'>state transitions</span> managed through <span class='bold'>Observable chains</span> and <span class='bold'>functional composition</span>.",
       "imgs": [
-        "assets/images/ap/agent-portal1.png",
-        "assets/images/ap/agent-portal2.png"
+        "assets/images/Tetris/tetrisImage1.png",
+        "assets/images/Tetris/tetrisImage2.png",
+        "assets/images/Tetris/tetrisImage3.png"
+
       ],
-      "Technologies": ["Angular", "SASS", "NG-Bootstrap", "TypeScript"]
+      "ghLink":"https://github.com/gablim1802/tetrisGame",
+      "vercelLink":"https://tetris-game-2aez.vercel.app/",
+      "Technologies": ["TypeScript", "RxJS", "HTML5", "Functional Programming"]
     },
     {
-      "Title": "Incident Management System",
-      "Description": "Developed <span class='underline'>Incident Management System,</span> an advanced <span class='underline'>tool</span> for effective digital incident management. The system includes <span class='underline'>real-time monitoring</span> and <span class='underline'>alerting features</span> for immediate <span class='underline'>issue detection</span> and <span class='underline'>triggering notification.</span> It orchestrates incident response processes, ensuring prompt resolution by the appropriate team members and facilitates collaboration and <span class='underline'>post-incident analysis</span> for continuous improvement.",
-      "imgs": ["assets/images/ims/image1.png", "assets/images/ims/image2.png"],
+      "Title": "POS System",
+      "Description": "Built a <span class='bold'>POS e-commerce platform</span> for selling plants with <span class='bold'>Razor API payment gateway integration</span> for <span class='bold'>secure transactions</span>. Features an <span class='bold'>AI-powered Gemini chatbot</span> for product recommendations and <span class='bold'>custom HTML email templates</span> for order confirmations and updates. Includes <span class='bold'>real-time inventory tracking</span>, <span class='bold'>sales analytics</span>, and <span class='bold'>role-based access control</span>, ensuring <span class='bold'>scalability</span> and <span class='bold'>security</span>.",
+      "imgs": ["assets/images/POS/image1.png", "assets/images/POS/image2.png","assets/images/POS/image3.png","assets/images/POS/image4.png"],
+      "vercelLink":"https://plant-sales.vercel.app/",
       "Technologies": [
         "Angular",
-        "SASS",
-        "Angular Material",
-        "Chart.JS",
-        "TypeScript",
-        "NGRX"
+        "Express.js",
+        "Node.js",
+        "Mongoose",
+        "TypeScript"
+      ]
+    },
+    
+    {
+      "Title": "Youth Labor and Education Visualisation",
+      "Description": "Created a <span class='bold'>Tableau visualization</span> to analyze Malaysia's <span class='bold'>youth labor market</span> and <span class='bold'>education trends</span>. Highlights <span class='bold'>gender disparities</span>, <span class='bold'>employment outcomes</span>, and <span class='bold'>education-to-job market relationships</span>. Features <span class='bold'>time-based trends</span> for future predictions and aids <span class='bold'>policymakers</span> and <span class='bold'>young job seekers</span> in making <span class='bold'>data-driven decisions</span>.",
+      "imgs": [
+        "assets/images/Tableau/image1.png",
+        "assets/images/Tableau/image2.png",
+        "assets/images/Tableau/image3.png"
+      ],
+      "vercelLink":"https://public.tableau.com/app/profile/jun.kee.lim/viz/dataVisualisation133207798/Dashboard1?publish=yes",
+      "Technologies": [
+        "Tableau"
       ]
     },
     {
-      "Title": "Harshit's Superstore",
-      "Description": "Developed <span class='underline'>Harshit's Superstore,</span> a comprehensive <span class='underline'>e-commerce platform</span> designed to enhance online shopping experiences. The platform features <span class='underline'>dynamic product listing,</span> a <span class='underline'>product detail view,</span> and a <span class='underline'>real-time cart system,</span> allowing users to seamlessly add or remove items. Integrated <span class='underline'>search, sorting, and filtering features</span> to streamline navigation and improve user experience. Managed application state with <span class='underline'>Reducers</span> and <span class='underline'>Contexts,</span> ensuring efficient data handling and smooth performance.",
+      "Title": "Malaysian Demographics and Socioeconomic",
+      "Description": "Developed an interactive visualization tool to analyze Malaysia's demographics and socioeconomic factors, focusing on <span class='bold'>population distribution</span> and <span class='bold'>income levels</span> across states and districts. Enabled users to explore <span class='bold'>population trends</span> and <span class='bold'>economic disparities</span> through dynamic charts and maps. Designed for policymakers, researchers, and businesses, the tool supports <span class='bold'>data-driven decision-making</span> in resource allocation and regional development.",
       "imgs": [
-        "assets/images/hs/image1.png",
-        "assets/images/hs/image2.png",
-        "assets/images/hs/image3.png",
-        "assets/images/hs/image4.png"
+        "assets/images/vega/image1.png",
+        "assets/images/vega/image2.png",
+        "assets/images/vega/image3.png"
       ],
-      "demoLink": "https://haryagni.github.io/E-Commerce",
-      "ghLink": "https://github.com/HaryAgni/E-Commerce",
+      "ghLink": "https://github.com/Lim1802/FIT3179_DATAV2",
+      "vercelLink":"https://lim1802.github.io/FIT3179_DATAV2/",
       "Technologies": [
-        "React",
-        "React Router",
-        "JavaScript",
-        "CSS",
-        "HTML",
-        "Reducers",
-        "Contexts"
-      ]
-    },
-    {
-      "Title": "Favourite Places",
-      "Description": "Developed <span class='underline'>Favourite Places,</span> a mobile app allowing users to save their favorite places with location tagging and images. Leveraged native device features such as <span class='underline'>location access</span> and <span class='underline'>camera functionality,</span> enhancing user interaction. Integrated smooth navigation between screens and ensured efficient data storage using <span class='underline'>SQLite.</span>",
-      "imgs": [
-        "assets/images/fp/image1.png",
-        "assets/images/fp/image2.png",
-        "assets/images/fp/image3.png"
-      ],
-      "ghLink": "https://github.com/HaryAgni/react-native-learnings/tree/main/favourite-places",
-      "Technologies": [
-        "React Native",
-        "Expo",
-        "React Navigation",
-        "SQLite",
-        "JavaScript",
-        "Native Device Features"
+        "Vega Lite",
+        "Python"
       ]
     }
   ],

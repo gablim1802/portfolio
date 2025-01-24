@@ -1,14 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
-$Navy         : #0a192f;
+$Navy         : #0f0f12;
 $LightNavy    : #112240;
 $LightestNavy : #303C55;
-$Slate        : #8892b0;
+$Slate: #8892b0;
 $LightSlate   : #a8b2d1;
 $LightestSlate: #ccd6f6;
 $White        : #e6f1ff;
 $Green        : #64ffda;
+$Yellow :#bc8f1d;
+$Purple:#8d1bff;
 $GreenOpacity : rgba(100,255,218,0.07);
 
-$MainFont: Calibre,San Francisco,SF Pro Text,-apple-system,system-ui,BlinkMacSystemFont,Roboto,Helvetica Neue,Segoe UI,Arial,sans-serif;
-$CodeFont: SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, Monospace;
+$MainFont: 'Calibre', 'Inter', 'San Francisco', sans-serif;
+$CodeFont: 'SF Mono', 'Fira Code', monospace;

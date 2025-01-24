@@ -52,6 +52,8 @@ export class HeaderComponent implements OnInit {
   }
 
   scroll(el) {
+
+    console.log(el,"scrool el")
     if(document.getElementById(el)) {
       document.getElementById(el).scrollIntoView({behavior: 'smooth'});
     } else{

@@ -1,10 +1,13 @@
 @import "./../../../../variables.scss";
 
+
+
 .about{
 
     .about-description{
         margin-top: 30px;
         max-width: 480px;
+        
     }
 
     .about-img-container{
@@ -29,7 +32,11 @@
             z-index: 2;
             position: relative;
         }
+
+        
     }
+
+    
 
     .skills-list{
         display: grid;
