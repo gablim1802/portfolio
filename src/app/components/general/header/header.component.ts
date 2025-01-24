@@ -31,6 +31,8 @@ import { ThisReceiver } from '@angular/compiler';
 
 
 export class HeaderComponent implements OnInit {
+  isMobile: boolean = false;
+  isTablet: boolean = false;  
 
   responsiveMenuVisible: Boolean = false;
   pageYPosition: number;
@@ -45,12 +47,30 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
 
+    this.checkScreenSize();
+
     this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val))
 
     this.languageFormControl.setValue(this.languageService.language)
 
   }
 
+
+
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.checkScreenSize();
+  }
+
+  private checkScreenSize() {
+    this.isMobile = window.innerWidth <= 767;
+    this.isTablet = window.innerWidth > 767 && window.innerWidth <= 1023;
+  }
+
+  toggleMenu() {
+    this.responsiveMenuVisible = !this.responsiveMenuVisible;
+    document.body.style.overflow = this.responsiveMenuVisible ? 'hidden' : 'auto';
+  }
   scroll(el) {
 
     console.log(el,"scrool el")

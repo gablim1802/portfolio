@@ -306,3 +306,151 @@ $CodeFont: 'Fira Code', monospace;
         visibility: inherit;
     }
 }
+
+
+
+// Add these breakpoint mixins at the top of your SCSS file
+@mixin desktop {
+    @media (min-width: 1024px) { @content; }
+  }
+  
+  @mixin tablet {
+    @media (min-width: 768px) and (max-width: 1023px) { @content; }
+  }
+  
+  @mixin mobile {
+    @media (max-width: 767px) { @content; }
+  }
+  
+  // Update the main-navbar class
+  .main-navbar {
+    height: 70px;
+    width: 100%;
+    padding: 0 50px;
+    transition: all 0.3s ease;
+  
+    @include tablet {
+      padding: 0 30px;
+    }
+  
+    @include mobile {
+      padding: 0 15px;
+      height: 60px; // Smaller height for mobile
+    }
+  
+    .menu-ul {
+      @include tablet {
+        li {
+          margin: 0px 8px; // Reduce margins on tablet
+          
+          a {
+            font-size: 14px; // Smaller font size
+          }
+        }
+      }
+  
+      @include mobile {
+        display: none; // Hide regular menu on mobile
+      }
+    }
+  
+    // Enhance responsive menu
+    .menu-responsive {
+      display: none;
+  
+      @include mobile {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        width: 75%; // Take up 75% of screen width
+        max-width: 300px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+  
+        &.active {
+          transform: translateX(0);
+        }
+  
+        aside {
+          padding: 80px 30px;
+          
+          nav ol {
+            li {
+              margin: 20px 0;
+              
+              a {
+                font-size: 16px;
+                padding: 10px 0;
+                display: block;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+    // Logo adjustments
+    .navbar-brand {
+      img {
+        @include mobile {
+          width: 35px; // Smaller logo on mobile
+        }
+      }
+    }
+  
+    // Hamburger menu improvements
+    .menu-wrapper {
+      display: none;
+  
+      @include mobile {
+        display: block;
+        
+        .hamburger-menu {
+          width: 30px;
+          height: 2px;
+          position: relative;
+          
+          &:before, &:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            transition: all 0.3s ease;
+          }
+  
+          &:before { top: -8px; }
+          &:after { bottom: -8px; }
+  
+          &.animate {
+            background: transparent;
+  
+            &:before {
+              transform: rotate(45deg);
+              top: 0;
+            }
+  
+            &:after {
+              transform: rotate(-45deg);
+              bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+  
+  // Adjust CV button
+  .cv-btn {
+    @include tablet {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  
+    @include mobile {
+      width: 100%;
+      margin-top: 20px;
+      text-align: center;
+    }
+  }
