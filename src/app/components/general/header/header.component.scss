@@ -389,6 +389,41 @@ $CodeFont: 'Fira Code', monospace;
           }
         }
       }
+
+
+      .close-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background: transparent;
+        border: none;
+        color: $Green;
+        font-size: 28px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    
+        &:hover {
+          background: rgba($Green, 0.1);
+        }
+    
+        .close-icon {
+          display: block;
+          line-height: 1;
+        }
+        
+    
+    
+        }
+
+        aside {
+            position: relative; // For absolute positioning of close button
+        }
     }
   
     // Logo adjustments

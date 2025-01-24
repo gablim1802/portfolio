@@ -62,6 +62,23 @@ export class HeaderComponent implements OnInit {
     this.checkScreenSize();
   }
 
+
+  @HostListener('document:click', ['$event'])
+  onDocumentClick(event: MouseEvent) {
+    // Close menu when clicking outside
+    if (this.responsiveMenuVisible) {
+      const menuContainer = document.querySelector('.menu-responsive');
+      const hamburgerButton = document.querySelector('.menu-wrapper');
+      
+      if (menuContainer && hamburgerButton) {
+        if (!menuContainer.contains(event.target as Node) && 
+            !hamburgerButton.contains(event.target as Node)) {
+          this.toggleMenu();
+        }
+      }
+    }
+  }
+
   private checkScreenSize() {
     this.isMobile = window.innerWidth <= 767;
     this.isTablet = window.innerWidth > 767 && window.innerWidth <= 1023;

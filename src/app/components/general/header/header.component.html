@@ -51,15 +51,19 @@
                  (click)='toggleMenu()' 
                  class="hamburger-menu">
             </div>
-        </div>
+        </div>  
 
         <!-- Mobile Menu -->
         <div class="menu-responsive" 
-             [class.active]="responsiveMenuVisible"
-             [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
+            [class.active]="responsiveMenuVisible"
+            [ngStyle]="{'pointer-events': !responsiveMenuVisible ? 'none' : '' }">
             <aside [class.aside-show]='responsiveMenuVisible' 
-                   [class.nav-shadow]='this.pageYPosition>0' 
-                   class="on-top mobile-aside">
+                [class.nav-shadow]='this.pageYPosition>0' 
+                class="on-top mobile-aside">
+                <!-- Add Close Button -->
+                <button class="close-button" (click)="toggleMenu()">
+                    <span class="close-icon">×</span>
+                </button>
                 <nav>
                     <ol class="mobile-menu-list">
                         <li (click)='analyticsService.sendAnalyticEvent("click_about", "menu", "click")'>
