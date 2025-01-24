@@ -403,7 +403,7 @@ class HeaderComponent {
         this.checkScreenSize();
         this.languageFormControl.valueChanges.subscribe(val => this.languageService.changeLanguage(val));
         this.languageFormControl.setValue(this.languageService.language);
-        console.log("test");
+        console.log("test2");
     }
     onResize(event) {
         this.checkScreenSize();

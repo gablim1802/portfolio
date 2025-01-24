@@ -53,7 +53,7 @@ export class HeaderComponent implements OnInit {
 
     this.languageFormControl.setValue(this.languageService.language)
 
-    console.log("test");
+    console.log("test2");
   }
 
 
